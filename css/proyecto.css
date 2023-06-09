@@ -1,0 +1,1002 @@
+*{
+
+font-family: 'Krona One', sans-serif;
+
+font-weight: 100;
+
+
+}
+
+
+body{
+
+background: radial-gradient(circle, #bbb, #000);
+
+}
+
+.content{
+
+display: flex;
+
+flex-direction: column;
+
+box-sizing: inherit;
+
+background-image: url(img/Carretera.jpeg);
+
+background-size: 100% 200px;
+
+background-repeat: no-repeat; 
+
+}
+
+
+
+.header{
+
+text-align: center;
+
+font-size: 30px;
+
+justify-content: space-between;
+
+
+
+
+
+
+
+}
+
+
+.content:before{
+
+content: "";
+
+position: absolute;
+
+background-color: #2F4F4F;
+
+width: 100%;
+
+height: 100px;
+
+opacity: 0.7;
+
+
+}
+
+.header-h1 {
+
+display: flex;
+
+justify-content: center;
+
+font-size: 20px;
+
+}
+
+
+.header-h1{
+
+position: relative;
+
+filter: brightness(1.2);
+
+
+
+}
+
+
+h1{
+
+
+text-align: center;
+
+color: #33B2FF;
+
+font-family: 'Krona One', sans-serif;
+
+}
+
+.nav{
+
+	
+display: flex;
+
+width: 100%;
+
+justify-content: center;
+
+flex-direction: row;
+
+justify-content: center;
+
+background: #33B2FF;
+
+
+}
+
+
+
+.li__ul-nav{
+
+
+text-align: center;
+
+color: #fff;
+
+padding: 25px;
+
+font-size: 15px;
+
+list-style-type: none;
+
+flex-grow: 1;
+
+transition: 0.3s;
+
+
+
+}
+
+
+.li__ul-nav a{
+
+color: #fff;
+
+text-decoration: none;
+
+padding: 5px;
+
+flex-basis: 60px;
+
+transition: 0.3s;
+
+}
+
+
+.li__ul-nav:hover{
+
+color: #bbb;
+
+background: #33B2FF
+
+
+}
+
+.li__ul-nav:hover a{
+
+color: #bbb;
+
+
+}
+
+.article{
+
+display: flex;
+
+width: 100%;
+
+justify-content: space-between;
+
+text-align: center;
+
+
+}
+
+
+.article-container{
+
+display: flex;
+
+flex-direction: column;
+
+height: 50em;
+
+width: 100em;
+
+justify-content: center;
+
+align-items: center;
+
+background-image: url(img/Telefono.png);
+
+background-size: 100% 50em;
+
+background-repeat: no-repeat;
+
+margin-top: 5px;
+
+border-radius: 1em;
+
+
+}
+
+
+
+.article-h2{
+
+text-align: center;
+
+height: 45%;
+
+padding: 15px;
+
+position: relative;
+
+}
+
+.article-h2 h2{
+
+color: #fff;
+
+font-size: 30px;
+
+font-family: 'Krona One', sans-serif;
+
+}
+
+
+
+.article-p{
+
+text-align: center;
+
+padding: 20px;
+
+position: relative;
+
+}
+
+.article-p i{
+
+padding: 10px;
+
+}
+
+.article-p p{
+
+color: #fff;
+
+font-size: 25px;
+
+font-family: 'Krona One', sans-serif;
+
+}
+
+
+
+.boton{
+
+flex-basis: 60px;	
+
+background: #00008B;
+
+padding: 20px;
+
+list-style-type: none;
+
+position: relative;
+
+text-align: center;
+
+font-size: 25px;
+
+border: 2px solid #00008B; 
+
+
+}
+
+.boton {
+
+color: #fff;
+
+text-decoration: none;
+
+transition: 0.5s;
+
+}
+
+
+.boton:hover{
+
+background: #2F4F4F;
+
+border: 2px solid #2F4F4F;
+
+}
+
+.boton:active{
+
+background: radial-gradient(circle, #00008B, #2F4F4F);
+
+border: 2px solid #1E90FF
+
+
+}
+
+
+
+
+.aside-container{
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+text-align: center;
+
+
+
+
+
+}
+
+.aside-h2{
+
+padding: 30px;
+
+font-size: 20px;
+
+color: #fff;
+
+}
+
+.aside-h2 h2{
+
+font-family: 'Krona One', sans-serif;
+
+
+}
+
+
+
+.aside-aplicacion{
+
+padding: 20px;
+
+
+
+}
+
+.aside-aplicacion h3{
+
+font-size: 25px;
+
+padding: 15px;
+
+color: #fff;
+
+font-family: 'Krona One', sans-serif;
+
+}
+
+.aside-aplicacion i{
+
+padding: 5px;
+
+font-size: 35px;
+
+color: #fff;
+
+}
+
+
+.aside-commerce{
+
+padding: 20px;
+
+}
+
+
+.aside-commerce h3{
+
+
+padding: 15px;
+
+font-size: 25px;
+
+color: #fff;
+
+font-family: 'Krona One', sans-serif;
+
+
+
+
+
+}
+
+.aside-Curso h3{
+
+
+    padding: 20px;
+    
+    font-size: 25px;
+    
+    color: #fff;
+    
+    font-family: 'Krona One', sans-serif;
+
+    margin: 10px 10px;
+    
+    }
+
+.aside-Curso i{
+
+        padding: 5px;
+        
+        font-size: 35px;
+        
+        color: #fff;
+        
+}    
+
+.aside-commerce i{
+
+padding: 5px;
+
+font-size: 35px;
+
+color: #fff;
+
+}
+
+.aside-articulos{
+
+padding: 20px
+
+
+
+}
+
+.aside-articulos h3{
+
+
+padding: 15px;
+
+font-size: 25px;
+
+
+color: #fff;
+
+font-family: 'Krona One', sans-serif;
+
+}
+
+.aside-articulos i{
+
+padding: 5px;
+
+font-size: 35px;
+
+color: #fff;
+
+}
+
+
+
+.footer{
+
+
+margin-top: 2em;
+
+text-align: left;
+
+justify-content: space-between;
+
+background: black;
+
+padding: 15px;
+
+height: 50px;
+
+width: 100%;
+
+}
+
+.footer p{
+
+color: #fff;
+
+}
+
+
+.section1, .section2{
+
+height: 22em;
+
+width: 100%;
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+text-align: center;
+
+background: #000;
+
+border-radius: 1.3em;
+
+margin-right: 5%;
+
+
+
+
+}
+
+.section_container1, .section_container2{
+
+display: flex;
+
+width: 100%;
+
+flex-direction: row;
+
+justify-content: center;
+
+text-align: center;
+
+height: 100%;
+
+top: 50px;
+
+margin-top: 2em;
+
+
+
+}
+
+.prueba1, .prueba2{
+    
+    width: 80%;
+
+    height: 15em;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: center;
+    
+    text-align: center;
+  
+    
+    
+    }
+
+.li__ul-section1-programacion, .li__ul-section1-criptomonedas {
+
+
+    text-align: center;
+
+    color: #fff;
+
+    padding-left: 15em;
+
+    padding-right: 10em;
+    
+    font-size: 15px;
+    
+
+
+}
+
+.li__ul-section1-programacion{
+
+    
+background-image: url(img/programacion.jpg);
+
+background-repeat: no-repeat;
+
+background-size: 100% 20em;
+
+
+
+}
+
+.li__ul-section1-criptomonedas{
+
+    background-image: url(img/criptomonedas.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 20em;
+
+}
+
+
+
+
+.prueba3, .prueba4{
+
+    
+    width: 100%;
+
+    height: 15em;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: center;
+    
+    text-align: center;
+
+
+}
+
+
+.li__ul-section2-articulos, .li__ul-section2-idiomas {
+
+
+    text-align: center;
+
+    color: #fff;
+    
+    padding: 25px;
+
+    padding-left: 15em;
+
+    padding-right: 10em;
+    
+    font-size: 15px;
+    
+
+
+}
+
+.li__ul-section2-articulos{
+
+    background-image: url(img/articulo.webp);
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 20em;
+
+
+}
+
+.li__ul-section2-idiomas{
+
+    background-image: url(img/idiomas.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 20em;
+
+}
+
+
+
+
+@media screen and (max-width: 950px){
+
+
+html{
+
+ overflow-x: hidden
+
+}    
+
+ 
+.section1, .section2{
+
+
+width: 98.5%;
+
+
+ }   
+
+.section_container1, .section_container2{
+
+width: 90%;
+
+
+
+}
+
+
+.prueba1, .prueba2{
+
+width: 60%;
+
+
+
+
+
+}
+
+
+.li__ul-section1-programacion{
+
+background-size: 90%;
+
+
+}
+
+
+.li__ul-section1-criptomonedas{
+
+background-size: 90%;
+
+
+
+}
+
+
+.prueba3, .prueba4{
+    
+    height: 13.5em;
+    width: 60%;
+    
+    
+    
+}
+    
+    
+.li__ul-section2-articulos{
+    
+    background-size: 90%;
+    
+    
+}
+    
+    
+.li__ul-section2-idiomas{
+    
+    background-size: 90%;
+    
+    
+    
+}
+
+
+.aside-container{
+
+width: 60%;
+
+
+}
+
+.article-container{
+
+height: 60em;
+
+background-size: 100% 60em;
+}
+    
+
+    
+
+}
+
+
+@media screen and (max-width: 840px){
+
+html{
+
+        overflow-x: hidden
+       
+}  
+
+
+
+
+.section_container1, .section_container2{
+
+    width: 80%;
+    
+    
+    
+    }
+    
+    
+    .prueba1, .prueba2{
+    
+    width: 60%;
+
+    margin-left: 30px;
+
+    height: 12em;
+    
+    
+    
+    
+    
+    }
+    
+    
+    .li__ul-section1-programacion{
+    
+    background-size: 85%;
+    
+    
+    }
+    
+    
+    .li__ul-section1-criptomonedas{
+    
+    background-size: 85%;
+    
+    
+    
+    }
+
+    
+    
+    .prueba3, .prueba4{
+
+        width: 60%;
+
+        height: 12em;
+        
+        margin-left: 30px;
+        
+        
+        
+        
+        
+        
+        }
+        
+        
+        .li__ul-section2-articulos{
+        
+        background-size: 85%;
+        
+        
+        }
+        
+        
+        .li__ul-section2-idiomas{
+        
+        background-size: 85%;
+        
+        
+        
+        }
+        
+        
+
+
+
+
+}
+    
+@media screen and (max-width: 760px){
+
+
+.nav{
+
+flex-direction: column;
+
+
+}
+
+.article{
+
+
+    flex-direction: column;
+
+}
+
+.article-h2 h2{
+
+
+font-size: 20px;
+
+
+}
+
+.header-h1{
+
+font-size: 15px;
+
+}
+
+.content{
+
+height: 100px;
+
+}
+
+.article-container{
+
+    width: 100%;  
+
+}
+
+.aside-container{
+
+
+    width: 100%;
+}
+
+.section1, .section2{
+
+
+flex-direction: column;
+
+
+}
+
+.section_container1, .section_container2{
+
+flex-direction: column;
+
+width: 100%;
+
+
+}
+
+.prueba1, .prueba2{
+
+width: 100%;
+
+margin: 0;
+
+margin-bottom: 15px;
+
+
+}
+
+.li__ul-section1-programacion{
+    
+    background-size: 95% 15em;
+    
+    
+    }
+    
+    
+    .li__ul-section1-criptomonedas{
+    
+    background-size: 100% 15em;
+    
+    
+    
+    }
+
+
+.prueba3, .prueba4{
+
+        width: 100%;
+        
+        margin: 0;
+        
+        margin-bottom: 15px;
+        
+        
+        }
+        
+.li__ul-section2-articulos{
+            
+  background-size: 100% 12em;
+            
+            
+            }
+            
+            
+.li__ul-section2-idiomas{
+            
+  background-size: 100% 12em;
+            
+            
+            
+}
+        
+        
+        
+
+
+
+
+
+}
+
+
+

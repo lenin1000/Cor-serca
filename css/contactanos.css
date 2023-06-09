@@ -1,0 +1,447 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Krona One', sans-serif;
+
+
+
+}
+
+
+html {
+    min-height: 100%;
+    position: relative;
+
+}    
+
+body{
+
+    background: radial-gradient(circle, #bbb, #000);
+
+    margin: 0;
+    margin-bottom: 40px;
+    
+    }
+    
+    .content{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    box-sizing: inherit;
+    
+    background-image: url(img/Carretera.jpeg);
+    
+    background-size: 100% 200px;
+    
+    background-repeat: no-repeat; 
+  
+    height: 100px;
+    
+    }
+    
+    
+    
+    .header{
+    
+    text-align: center;
+    
+    font-size: 20px;
+    
+    justify-content: space-between;
+    
+    
+    
+    
+  
+    
+    
+    }
+  
+  
+    .header-h1{
+  
+       padding-top: 15px;
+  
+       font-size: 20px;
+    
+    }   
+    
+    
+    .content:before{
+    
+    content: "";
+    
+    position: absolute;
+    
+    background-color: #2F4F4F;
+    
+    width: 100%;
+    
+    height: 100px;
+    
+    opacity: 0.7;
+    
+    
+    }
+    
+    .header-h1 {
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    font-size: 20px;
+    
+    }
+    
+    
+    .header-h1{
+    
+    position: relative;
+    
+    filter: brightness(1.2);
+    
+    
+    
+    }
+    
+    
+    h1{
+    
+    
+    text-align: center;
+    
+    color: #33B2FF;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    }
+    
+    .nav{
+    
+      
+    display: flex;
+    
+    width: 100%;
+    
+    justify-content: center;
+    
+    flex-direction: row;
+    
+    justify-content: center;
+    
+    background: #33B2FF;
+    
+    
+    }
+    
+    
+    
+    .li__ul-nav{
+    
+    
+    text-align: center;
+    
+    color: #fff;
+    
+    padding: 25px;
+    
+    font-size: 15px;
+    
+    list-style-type: none;
+    
+    flex-grow: 1;
+    
+    transition: 0.3s;
+    
+    
+    
+    }
+    
+    
+    .li__ul-nav a{
+    
+    color: #fff;
+    
+    text-decoration: none;
+    
+    padding: 5px;
+    
+    flex-basis: 60px;
+    
+    transition: 0.3s;
+    
+    }
+    
+    
+    .li__ul-nav:hover{
+    
+    color: #bbb;
+    
+    background: #33B2FF
+    
+    
+    }
+    
+    .li__ul-nav:hover a{
+    
+    color: #bbb;
+    
+    
+    }
+  
+
+
+
+.flex-container{
+
+display: flex;
+
+align-items: center;
+
+flex-wrap: wrap;
+
+justify-content: center;
+
+
+background: #222;
+
+margin: 60px 60px;
+
+padding: 20px;
+
+border: 14px solid #000;
+
+outline: 4px solid #33B2FF;
+
+margin-bottom: 20em;
+
+
+
+}
+
+.form{
+
+min-width: 400px;
+
+flex: 1;
+
+text-align: center;
+
+padding: 30px;
+
+order: 5;
+
+}
+
+.input-flex{
+
+width: 100%;
+
+padding: 10px;
+
+margin: 6px 0;
+
+border: none;
+
+border-bottom: 3px solid #33B2FF;
+
+background: transparent;
+
+color: #fff;
+
+
+}
+
+.input-flex:focus{
+
+background: linear-gradient(to bottom, transparent, #111);
+
+outline: none;
+
+border-bottom: 3px solid rgb(85, 102, 255);
+ 
+
+}
+
+
+.form textarea{
+
+min-height: 140px;
+
+resize: none;
+
+}
+
+.form-img{
+
+display: flex;
+
+padding: 20px;
+
+display: flex;
+
+order: 2;
+
+
+
+}
+
+.form-img div{
+
+padding: 20px;
+
+}
+
+.img-container{
+
+margin: auto;
+
+
+
+}
+
+.img-container div{
+
+background-color: #222;
+
+border-radius: 50%;
+
+text-align: center;
+
+padding: 40px;
+
+width: 100%;
+
+height: 100%;
+
+left: 10%;
+
+
+}
+
+
+.form-img img{
+
+width: 20em;
+
+}
+
+
+.form input[type="submit"]{
+
+background: #000;
+
+border-bottom: none;
+
+padding: 15px;
+
+
+}
+
+.form input[type="submit"]:hover{
+
+
+background: #111;
+
+border-bottom: none;
+
+padding: 15px;
+
+}
+
+.form input[type="submit"]:focus{
+
+background-color: #000;
+
+}
+
+
+.form input[type="submit"]:active{
+
+background: linear-gradient(to bottom, #111, #000);
+
+}
+
+
+.footer{
+
+    position: absolute;
+
+
+    bottom: 0;
+    text-align: left;
+    
+    justify-content: space-between;
+    
+    background: black;
+    
+    padding: 15px;
+    
+    height: 100px;
+
+    width: 100%;
+    
+    }
+    
+    .footer p{
+    
+    color: #fff;
+    
+    }
+  
+  .container-foo, .row, .footer-col{
+  
+    background-color: #24252a;
+  }
+  
+
+  @media screen and (max-width: 560px){
+
+
+  .nav{
+
+      flex-direction: column;
+
+
+  }
+
+  .form-img img{
+
+    width: 15em;
+    
+    }
+
+  }
+
+@media screen and (max-width: 490px){
+
+
+.input-flex{
+
+width: 50%;
+
+font-size: 10px;
+
+}
+
+
+
+.form{
+
+min-width: 380px;
+
+
+}
+
+.form-img img{
+
+  width: 7.5em;
+
+}
+
+
+}
